@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DAL EVENTS WEBSITE
 
-## Getting Started
+This is a website for my family's event venue business. It is a Next.js app that connects to a firebase server.
 
-First, run the development server:
+## GOALS
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Create a nice looking UI for people to see and also showcase how the event hall looks.
+2. Create a way for customers to book the event hall on certain dates.
+3. Create firebase cloud functions that send emails to the user and the admins of the bookings. These bookings are also stored in Cloud Firestore.
+4. Create an admin panel so that admins can sort out the bookings and accept, reschedule or decline bookings on certain dates.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## GETTING STARTED
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone the repository using **git clone**
+2. Open a terminal and navigate to the project directory.
+3. Run **npm install** to install the needed dependencies
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### FOR DEVELOPMENT
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+4. Run **npm run dev** to run a development server.
 
-## Learn More
+### FOR PRODUCTION
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Run **npm run build** to build the production version project.
+6. Then run **npm start** to start running the production build server
